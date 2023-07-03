@@ -1,8 +1,10 @@
 .s1div1 {
     margin: 57px auto 53px;
     max-width: 1146px;
-    width: 95%;
+    width: 90%;
+    border: 2px solid black;
 }
+
 .div1 {
     width: 371px;
     margin-bottom: 57px;
@@ -27,7 +29,7 @@ h2 {
 .s1div2 {
     display: flex;
     justify-content: space-between;
-
+    border: 2px solid red;
 }
 #textarea {
     width: 756px;
@@ -90,6 +92,9 @@ h2 {
     align-items: center;
     margin-bottom: 16px;
 }
+.fa-xl {
+    display: none;
+}
 .infotext {
     width: 226px;
     height: 157px;
@@ -116,7 +121,7 @@ a {
 }
 .photos {
     max-width:1319px;
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -132,9 +137,9 @@ footer {
     width: 100%;
 }
 .footerdiv {
-    margin:0 auto;
+    margin: 0 auto;
     max-width: 1146px;
-    width: 95%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
 }

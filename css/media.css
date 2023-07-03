@@ -1,5 +1,164 @@
 @media (max-width:1810px) {
     .photos {
+        width: 80%;
+    }
+
+}
+@media (max-width:1460px) {
+    img {
+        height: 300px;
+        width: 300px;
+    }
+    .s1div1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
         width: 90%;
+    }
+    .area {
+        margin-right: 15px;
+    }
+    .s1div2 {
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 29px;
+    }
+    .inputsdiv input {
+        width: 100%;
+    }
+    .inputsdiv #submit {
+        width: 100%;
+    }
+    .area {
+        margin-bottom: 0;
+        width: 60%;
+    }
+     #textarea {
+        width: 100%;
+        resize: both;
+    } 
+}
+@media (max-width:1160px) {
+    .photos {
+        flex-wrap: wrap;
+    }
+    .rec1 {
+        margin-right: 40px;
+        margin-left: 50px;
+    }
+    .rec3 {
+        margin:30px auto;
+    }
+    .rec2 {
+        margin-right: 50px;
+    }
+    .s1div1 {
+        margin-bottom: 40px;
+    }
+} 
+@media (max-width:1000px) {
+    .area {
+        width: 60%;
+    }
+    #textarea {
+        width: 100%;
+    }
+}
+@media (max-width:930px) {
+    .photos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .rec1, .rec2, .rec3 {
+        margin: 0 0 20px;
+    }
+    .footerdiv {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 95%;
+    }
+    .row1 {
+        width: 100%;
+        height: 100px;
+        margin-bottom: 30px;
+    }
+    p {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .row2 {
+        width: 100%;
+    }
+    footer {
+        padding: 20px 0 0;
+    }
+
+}
+@media (max-width:870px) {
+    .info .fa-xl {
+        display: inline-block;
+    }
+    .info .fa-2xl {
+        display: none;
+    }
+    .info {
+        width: 54px;
+        height: 54px;
+        margin-bottom: 8px;
+    }
+    a {
+        font-size: 12px;
+    }
+    .area {
+       width: 100%;
+    }
+    #textarea {
+        width: 100%;
+    }
+    
+}
+@media (max-width: 695px) {
+    h1 {
+        font-size: 16px;
+    }
+    a {
+        font-size: 9px;
+    }
+}
+@media (max-width:600px) {
+   .row2 div {
+    height: 80%;
+   }
+   .div1 {
+    width: 100%;
+    }
+    h6 {
+     width: 100%;
+    }
+    h2 {
+    width: 100%;
+    }
+}
+@media (max-width:378px) {
+    .rec1, .rec2, .rec3 {
+        height: 200px;
+        width: 200px;
+       
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width:255px) {
+    .rec1, .rec2, .rec3 {
+        height: 100px;
+        width: 100px;      
+    }
+    img {
+        width: 100%;
+        height: 100%;
     }
 }
