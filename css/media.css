@@ -129,7 +129,8 @@
 }
 @media (max-width:600px) {
    .row2 div {
-    height: 80%;
+    height: 100%;
+    
    }
    .div1 {
     width: 100%;
@@ -140,7 +141,26 @@
     h2 {
     width: 100%;
     }
-    
+    .footerdiv {
+        height: 95%;
+        width: 97%;
+    }
+    .s1div1 {
+        width: 97%;
+    }
+}
+@media (max-width:450px) {
+    .row2 {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .row2 div {
+        margin-right: 10px;
+        height: 170px;
+    }
+    footer {
+        height: 600px;
+    }
 }
 @media (max-width:378px) {
     .rec1, .rec2, .rec3 {
@@ -162,4 +182,14 @@
         width: 100%;
         height: 100%;
     }
+}
+@media (max-width:256px) {
+    .footerdiv {
+        align-items: center;
+       
+    }
+    .row2 {
+        justify-content: center;
+    }
+
 }
